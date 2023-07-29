@@ -10,7 +10,7 @@
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title xxx-parallel
+// @raycast.title marvin-parallel
 // @raycast.mode silent
 // @raycast.packageName Chrome
 //
@@ -19,7 +19,7 @@
 // @raycast.argument1 { "type": "text", "placeholder": "link", "optional": true}
 //
 // Documentation:
-// @raycast.description chrome: xxx@parallel.fi
+// @raycast.description chrome: marvin@parallel.fi
 // @raycast.author zhouJF
 // @raycast.authorURL https://github.com/jfzhou5
 

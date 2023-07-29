@@ -10,7 +10,7 @@
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title xxx
+// @raycast.title marvin
 // @raycast.mode silent
 // @raycast.packageName Chrome
 //
@@ -19,7 +19,7 @@
 // @raycast.argument1 { "type": "text", "placeholder": "link", "optional": true}
 //
 // Documentation:
-// @raycast.description chrome: xxx@para.space
+// @raycast.description chrome: marvin@para.space
 // @raycast.author zhouJF
 // @raycast.authorURL https://github.com/jfzhou5
 
