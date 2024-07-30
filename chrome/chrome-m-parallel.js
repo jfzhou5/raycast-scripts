@@ -10,7 +10,7 @@
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title marvin-parallel
+// @raycast.title marvin@parallel.fi
 // @raycast.mode silent
 // @raycast.packageName Chrome
 //

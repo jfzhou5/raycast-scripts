@@ -10,12 +10,12 @@
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title notion-parallel
+// @raycast.title CCIP Oracle
 // @raycast.mode silent
-// @raycast.packageName Parallel
+// @raycast.packageName Oracle
 //
 // Optional parameters:
-// @raycast.icon ../logs/notion.png
+// @raycast.icon ../logs/avax_32.avif
 //
 // Documentation:
 // @raycast.description Write a nice and descriptive summary about your script command here
@@ -28,7 +28,7 @@ const { exec } = require("child_process");
 require("../initEnv");
 
 const main = () => {
-  const script = `open -n -a 'Google Chrome' --args --profile-directory="Default" '${process.env.NOTION_LINK}'`;
+  const script = `open -n -a 'Google Chrome' --args --profile-directory="Default" '${process.env.CCIP_ORACLE}'`;
   exec(script);
 };
 

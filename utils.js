@@ -23,16 +23,12 @@ const getUrl = (arg) => {
   let url;
   if (arg === "") {
     url = defaultUrl;
-  } else if ("dev".includes(arg)) {
-    url = "https://app-dev.para.space";
-  } else if ("staging".includes(arg)) {
-    url = "https://app-staging.para.space";
-  } else if ("paraspace".includes(arg)) {
-    url = "https://app.para.space";
   } else if ("bilibili".includes(arg)) {
-    url = `https://www.bilibili.com`;
+    url = "https://www.bilibili.com/";
+  } else if ("chatgpt".includes(arg)) {
+    url = `https://chatgpt.com/`;
   } else {
-    url = defaultUrl;
+    url = `https://www.google.com/search?q=${arg}`;
   }
   return url;
 };

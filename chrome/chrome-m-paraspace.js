@@ -10,7 +10,7 @@
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title marvin
+// @raycast.title marvin@para.space
 // @raycast.mode silent
 // @raycast.packageName Chrome
 //

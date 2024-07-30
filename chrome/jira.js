@@ -28,7 +28,7 @@ const { exec } = require("child_process");
 require("../initEnv");
 
 const main = () => {
-  const script = `open -n -a 'Google Chrome' --args --profile-directory="Profile 20" '${process.env.JIRA_LINK}'`;
+  const script = `open -n -a 'Google Chrome' --args --profile-directory="Default" '${process.env.JIRA_LINK}'`;
   exec(script);
 };
 
